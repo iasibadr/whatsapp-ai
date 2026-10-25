@@ -1,6 +1,6 @@
 # Voice providers, model choice and cost
 
-Reviewed 2026-10-25. This is a documented shortlist, not an exhaustive market survey or a measured quality ranking.
+Reviewed 2026-10-25. Prices are limited to the OpenAI models selectable in this application; this is not a measured quality ranking.
 
 ## What works in the published application
 
@@ -10,34 +10,22 @@ The source already offers two OpenAI choices in `RealtimeModel`: `gpt-realtime-2
 
 The existing choices select a model, not a separately installed agent. The app supplies the mission, tools and audio relay. This guide does not change the APK or enable new providers.
 
-## Indicative prices, lowest to highest for one declared scenario
+## OpenAI prices, lowest to highest
 
-Scenario: a fresh 60-second voice interaction with 30 seconds of received speech and 30 seconds of generated speech. USD, standard paid prices, before taxes. Token-based rows count only new audio; session-based rows count the full minute. This is an illustrative subtotal, **not the actual invoice or a proven cheapest-provider ranking**. Context, text, tools, reconnects and other charges can change the order.
+Only the two OpenAI Realtime models selectable in the application are priced here. Rates reviewed on 2026-10-25, in USD before taxes, per million tokens unless noted.
 
-| Order in this scenario | Provider / option | Illustrative USD subtotal | Application status |
-|---|---|---:|---|
-| 1 | Google Gemini 3.8 Live / 3.1 Flash Live Preview | about 0.0115 | Candidate; not integrated or tested |
-| 2 | OpenAI gpt-realtime-2.1-mini | 0.0150 | Selectable in source; not separately certified by this guide |
-| 3 | OpenAI gpt-realtime-2.1 | 0.0480 | Default in source; only OpenAI has device-test evidence |
-| 4 | Deepgram Voice Agent Standard, pay-as-you-go | 0.0750 | Candidate; not integrated or tested |
-| 5 | xAI Grok Voice 3.0 | 0.0800, plus text-input charges | Candidate; not integrated or tested |
+| Model / app label | Audio input | Audio output | Text input | Text output | Example: 30 s received speech + 30 s generated speech |
+|---|---:|---:|---:|---:|---:|
+| gpt-realtime-2.1-mini / Economique | $10 | $20 | $0.60 | $2.40 | $0.0150 |
+| gpt-realtime-2.1 / Complet | $32 | $64 | $4 | $24 | $0.0480 |
 
-OpenAI: audio input/output rates per million tokens are $10/$20 for Mini and $32/$64 for Complet. Using 600 input and 1,200 output audio tokens per minute gives `0.5 * (600 * input_rate + 1200 * output_rate) / 1,000,000`. Text rates and cached input differ. Reused conversational context can add cost. [Pricing](https://developers.openai.com/api/docs/pricing) · [Audio accounting](https://developers.openai.com/api/docs/guides/voice-latency-cost?voice-api=realtime).
+The example counts **new audio only**, using 600 input and 1,200 output audio tokens per minute: `0.5 * (600 * input_rate + 1200 * output_rate) / 1,000,000`. It is not the price of a complete call. Text, conversation history, tools, carrier/data charges and taxes are additional where applicable. Silence, interruptions and speech proportions also affect usage. A lower price does not establish equal voice quality or mission success.
 
-Google: its published approximate audio rates are $0.005 per input minute and $0.018 per output minute, hence `0.5 * (0.005 + 0.018)`. This uses Google's rounded duration equivalents, not OpenAI's tokenizer. Live history can be rebilled; transcription and tools may add charges. Free-tier data conditions differ from the paid tier and are not used here. [Pricing](https://ai.google.dev/gemini-api/docs/pricing) · [Live billing](https://ai.google.dev/gemini-api/docs/live-api/best-practices).
+Cached input prices per million tokens: Mini audio $0.30 and text $0.06; Complet audio $0.40 and text $0.40. Cache eligibility and actual usage determine the invoice. [Official OpenAI pricing](https://developers.openai.com/api/docs/pricing) · [Audio accounting](https://developers.openai.com/api/docs/guides/voice-latency-cost?voice-api=realtime).
 
-Deepgram: Standard pay-as-you-go is $0.075/minute. BYO configurations have separate component costs and are not equivalent to this row. [Pricing](https://deepgram.com/pricing).
+## Other providers
 
-xAI: the current pricing page lists Grok Voice 3.0 at $0.08/minute plus $0.004 per text input. An overview still advertises a starting $0.05 rate; do not use that older headline for this model. Verify the exact account/model tariff before integrating. [Current pricing](https://docs.x.ai/developers/pricing).
-
-Carrier calls/data, model text/history, tooling, device costs, optional backend hosting and maintenance are additional. None of these figures demonstrates a saving against Twilio or another complete telephony service.
-
-## Anthropic and further candidates
-
-- **Anthropic Claude:** consider a composed voice pipeline: speech recognition -> Claude -> speech synthesis. Anthropic's official cookbook demonstrates this with ElevenLabs. The total is STT + Claude input/output + TTS + any orchestration/hosting. There is no single comparable voice-minute price established here; it cannot honestly be inserted into the ranking without choosing all components. Not integrated or tested. [Official voice example](https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts).
-- **Amazon Nova 2 Sonic:** a speech-to-speech candidate using Bedrock bidirectional streaming. Regional pricing, account access and a safe Android authentication design need evaluation before estimating a complete call. Not integrated or tested. [Model documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html) · [Pricing](https://aws.amazon.com/nova/pricing/).
-- **ElevenLabs:** possible speech synthesis/provider component, including a Claude pipeline. Select the plan and components before quoting a complete price. No compatibility claim for this APK.
-- **OpenAI GPT-Live:** another architecture, listed at $0.05 per session minute plus backend model/tool costs; not a replacement model ID for the existing Realtime integration and not included in the audio-only ranking. [Pricing](https://developers.openai.com/api/docs/pricing).
+Other voice providers are not integrated or tested. Their prices are deliberately not displayed here. Request an integration using the dedicated issue template below; feasibility and validation come before any support claim.
 
 ## Contribution scope: make provider choice real
 
@@ -48,9 +36,9 @@ Carrier calls/data, model text/history, tooling, device costs, optional backend 
 5. Evaluate on consenting calls with the same mission, language, speech split and context length. Report success, latency, interruptions, actual billed cost, phone/app/model versions and failures. Test French and Darija separately if claimed.
 6. Keep experimental adapters unavailable by default until documented device evidence exists. Preserve original released APKs; publish a separate prerelease for a new implementation.
 
-## Francais
+## Français
 
-Les essais actuels ont ete faits avec l'API OpenAI sur le Pixel 8 Pro de l'auteur. Le code propose deja Complet et Economique chez OpenAI. Les autres fournisseurs sont des pistes de contribution, pas des options disponibles dans l'APK actuel. Le classement ci-dessus compare un scenario d'audio neuf ; la facture complete et la qualite doivent etre mesurees. Claude necessite ici une chaine reconnaissance vocale + modele + synthese vocale, avec le cout de chaque composant.
+Les essais actuels ont été faits avec l’API OpenAI sur le Pixel 8 Pro de l’auteur. Seuls les tarifs des deux modèles proposés sont affichés, du moins cher au plus cher : **Économique (Mini)** puis **Complet**. L’exemple de 0,0150 USD pour Mini et 0,0480 USD pour Complet couvre uniquement 30 secondes d’audio reçu et 30 secondes d’audio généré, pas la facture complète d’un appel. Les tarifs des autres fournisseurs ne sont pas affichés ; leur intégration peut être demandée ci-dessous.
 
 ### Request another voice provider / Demander un autre fournisseur vocal
 

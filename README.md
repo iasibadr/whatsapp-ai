@@ -17,7 +17,7 @@ This is a community research release, not an official WhatsApp, Meta or OpenAI p
 
 ## Voice model choice
 
-**Tested provider: OpenAI API. Tested phone: the author's Pixel 8 Pro only.** The source offers OpenAI Complet and Economique models. Other providers are not integrated or tested. See the [provider options, dated cost comparison and contribution plan](docs/VOICE_PROVIDERS.md).
+**Tested provider: OpenAI API. Tested phone: the author's Pixel 8 Pro only.** The source offers OpenAI Complet and Economique models. Other providers are not integrated or tested. See the [OpenAI model prices and provider-request guide](docs/VOICE_PROVIDERS.md).
 
 **Fournisseur utilise pour les essais : API OpenAI.** Autres fournisseurs et autres telephones non valides.
 
