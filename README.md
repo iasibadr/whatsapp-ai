@@ -21,6 +21,13 @@ This is a community research release, not an official WhatsApp, Meta or OpenAI p
 
 **Fournisseur utilise pour les essais : API OpenAI.** Autres fournisseurs et autres telephones non valides.
 
+
+### Request another voice provider / Demander un autre fournisseur vocal
+
+Additional voice providers may be added in response to community requests, subject to technical feasibility, contributor availability and validation. [Open a voice-provider request](https://github.com/iasibadr/whatsapp-ai/issues/new?template=voice_provider_request.md) with the service name, public API documentation and your intended use. A request does not guarantee integration or a release date. Only OpenAI is supported today.
+
+D’autres fournisseurs vocaux pourront être ajoutés à la demande de la communauté, sous réserve de faisabilité technique, de disponibilité des contributeurs et de tests. [Ouvrir une demande](https://github.com/iasibadr/whatsapp-ai/issues/new?template=voice_provider_request.md) en indiquant le service souhaité, sa documentation API publique et votre usage. L’ajout n’est pas garanti et aucun délai n’est promis. Actuellement, seule l’API OpenAI est prise en charge. Ne partagez aucune clé API ni donnée personnelle.
+
 ## Status
 
 The supplied APK is version **0.22-beta**. Source and APK provenance, hashes and limitations are in [VALIDATION.md](docs/VALIDATION.md). Local relay startup was observed on Pixel 8 Pro / Android 17. A ready indicator does not prove that a remote caller hears the AI. Other phones and Android versions need their own consented call test. Automatic recovery after a full reboot is not established.
