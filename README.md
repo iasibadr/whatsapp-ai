@@ -13,7 +13,7 @@ The supplied APK is version **0.22-beta**. Source and APK provenance, hashes and
 
 ## Download
 
-[Download the supplied APK](downloads/whatsapp-ai-0.22.apk) · [SHA-256](downloads/SHA256SUMS) · [Release notes](docs/RELEASE_NOTES.md)
+[Download the supplied APK](https://github.com/iasibadr/whatsapp-ai/releases/download/v0.22-beta/whatsapp-ai-0.22.apk) · [SHA-256](downloads/SHA256SUMS) · [Release notes](docs/RELEASE_NOTES.md)
 
 The APK is the original supplied build. It is not rebuilt or re-signed during publication. Its manifest reports 0.22-beta; an older internal display constant still says 0.19-beta.
 
