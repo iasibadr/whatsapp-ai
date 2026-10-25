@@ -1,5 +1,9 @@
 # WhatsApp AI
 
+[![Source checks](https://github.com/iasibadr/whatsapp-ai/actions/workflows/checks.yml/badge.svg)](https://github.com/iasibadr/whatsapp-ai/actions/workflows/checks.yml) · [Releases](https://github.com/iasibadr/whatsapp-ai/releases) · [Compatibility](docs/COMPATIBILITY.md) · [Roadmap](docs/ROADMAP.md) · [Support](SUPPORT.md)
+
+Build status covers the configured checks, not real-device audio or a security audit. Lint remains a separately reported diagnostic with known errors.
+
 **An Android assistant for consented WhatsApp calls.**
 Created by **Charadi Badr** · Android native Java · MIT application code.
 

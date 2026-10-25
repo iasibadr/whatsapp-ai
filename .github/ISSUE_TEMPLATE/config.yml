@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and support
+    url: https://github.com/iasibadr/whatsapp-ai/blob/main/SUPPORT.md
+    about: Read setup instructions and choose the right report.
+  - name: Security reporting
+    url: https://github.com/iasibadr/whatsapp-ai/blob/main/SECURITY.md
+    about: Do not disclose credentials or private call data in public issues.
