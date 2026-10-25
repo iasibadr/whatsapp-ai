@@ -1,0 +1,1179 @@
+[
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "72"
+      }
+    ]
+  },
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/LocalAudioBench.java",
+        "line": "46"
+      }
+    ]
+  },
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/LocalAudioBench.java",
+        "line": "54"
+      }
+    ]
+  },
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Missing permissions required by TelecomManager.endCall: android.permission.ANSWER_PHONE_CALLS",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "166"
+      }
+    ]
+  },
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/VoipAudioTest.java",
+        "line": "100"
+      }
+    ]
+  },
+  {
+    "id": "MissingPermission",
+    "severity": "Error",
+    "message": "Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/VoipPcmSession.java",
+        "line": "100"
+      }
+    ]
+  },
+  {
+    "id": "ApplySharedPref",
+    "severity": "Warning",
+    "message": "Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/AiTrial.java",
+        "line": "29"
+      }
+    ]
+  },
+  {
+    "id": "ApplySharedPref",
+    "severity": "Warning",
+    "message": "Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/AiTrial.java",
+        "line": "172"
+      }
+    ]
+  },
+  {
+    "id": "OldTargetApi",
+    "severity": "Warning",
+    "message": "Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "6"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "176"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "180"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "183"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "20"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "253"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "259"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "263"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioProbe.java",
+        "line": "36"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioManager.MODE_NORMAL, AudioManager.MODE_RINGTONE, AudioManager.MODE_IN_CALL, AudioManager.MODE_IN_COMMUNICATION, AudioManager.MODE_CALL_SCREENING, AudioManager.MODE_CALL_REDIRECT, AudioManager.MODE_COMMUNICATION_REDIRECT",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/AutonomyBench.java",
+        "line": "39"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioManager.MODE_NORMAL, AudioManager.MODE_RINGTONE, AudioManager.MODE_IN_CALL, AudioManager.MODE_IN_COMMUNICATION, AudioManager.MODE_CALL_SCREENING, AudioManager.MODE_CALL_REDIRECT, AudioManager.MODE_COMMUNICATION_REDIRECT",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "49"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioFormat.ENCODING_DEFAULT, AudioFormat.ENCODING_PCM_16BIT, AudioFormat.ENCODING_PCM_8BIT, AudioFormat.ENCODING_PCM_FLOAT, AudioFormat.ENCODING_AC3, AudioFormat.ENCODING_E_AC3, AudioFormat.ENCODING_DTS, AudioFormat.ENCODING_DTS_HD, AudioFormat.ENCODING_MP3, AudioFormat.ENCODING_AAC_LC, AudioFormat.ENCODING_AAC_HE_V1, AudioFormat.ENCODING_AAC_HE_V2, AudioFormat.ENCODING_IEC61937, AudioFormat.ENCODING_DOLBY_TRUEHD, AudioFormat.ENCODING_AAC_ELD, AudioFormat.ENCODING_AAC_XHE, AudioFormat.ENCODING_AC4, AudioFormat.ENCODING_E_AC3_JOC, AudioFormat.ENCODING_DOLBY_MAT, AudioFormat.ENCODING_OPUS, AudioFormat.ENCODING_PCM_24BIT_PACKED, AudioFormat.ENCODING_PCM_32BIT, AudioFormat.ENCODING_MPEGH_BL_L3, AudioFormat.ENCODING_MPEGH_BL_L4, AudioFormat.ENCODING_MPEGH_LC_L3, AudioFormat.ENCODING_MPEGH_LC_L4, AudioFormat.ENCODING_DTS_UHD_P1, AudioFormat.ENCODING_DRA, AudioFormat.ENCODING_DTS_HD_MA, AudioFormat.ENCODING_DTS_UHD_P2, AudioFormat.ENCODING_DSD",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "69"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioFormat.ENCODING_DEFAULT, AudioFormat.ENCODING_PCM_16BIT, AudioFormat.ENCODING_PCM_8BIT, AudioFormat.ENCODING_PCM_FLOAT, AudioFormat.ENCODING_AC3, AudioFormat.ENCODING_E_AC3, AudioFormat.ENCODING_DTS, AudioFormat.ENCODING_DTS_HD, AudioFormat.ENCODING_MP3, AudioFormat.ENCODING_AAC_LC, AudioFormat.ENCODING_AAC_HE_V1, AudioFormat.ENCODING_AAC_HE_V2, AudioFormat.ENCODING_IEC61937, AudioFormat.ENCODING_DOLBY_TRUEHD, AudioFormat.ENCODING_AAC_ELD, AudioFormat.ENCODING_AAC_XHE, AudioFormat.ENCODING_AC4, AudioFormat.ENCODING_E_AC3_JOC, AudioFormat.ENCODING_DOLBY_MAT, AudioFormat.ENCODING_OPUS, AudioFormat.ENCODING_PCM_24BIT_PACKED, AudioFormat.ENCODING_PCM_32BIT, AudioFormat.ENCODING_MPEGH_BL_L3, AudioFormat.ENCODING_MPEGH_BL_L4, AudioFormat.ENCODING_MPEGH_LC_L3, AudioFormat.ENCODING_MPEGH_LC_L4, AudioFormat.ENCODING_DTS_UHD_P1, AudioFormat.ENCODING_DRA, AudioFormat.ENCODING_DTS_HD_MA, AudioFormat.ENCODING_DTS_UHD_P2, AudioFormat.ENCODING_DSD",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "70"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioDeviceInfo.TYPE_BUILTIN_EARPIECE, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER, AudioDeviceInfo.TYPE_WIRED_HEADSET, AudioDeviceInfo.TYPE_WIRED_HEADPHONES, AudioDeviceInfo.TYPE_BLUETOOTH_SCO, AudioDeviceInfo.TYPE_BLUETOOTH_A2DP, AudioDeviceInfo.TYPE_HDMI, AudioDeviceInfo.TYPE_DOCK, AudioDeviceInfo.TYPE_USB_ACCESSORY, AudioDeviceInfo.TYPE_USB_DEVICE, AudioDeviceInfo.TYPE_USB_HEADSET, AudioDeviceInfo.TYPE_TELEPHONY, AudioDeviceInfo.TYPE_LINE_ANALOG, AudioDeviceInfo.TYPE_HDMI_ARC, AudioDeviceInfo.TYPE_HDMI_EARC, AudioDeviceInfo.TYPE_LINE_DIGITAL, AudioDeviceInfo.TYPE_FM, AudioDeviceInfo.TYPE_AUX_LINE, AudioDeviceInfo.TYPE_IP, AudioDeviceInfo.TYPE_BUS, AudioDeviceInfo.TYPE_HEARING_AID, AudioDeviceInfo.TYPE_BUILTIN_MIC, AudioDeviceInfo.TYPE_FM_TUNER, AudioDeviceInfo.TYPE_TV_TUNER, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER_SAFE, AudioDeviceInfo.TYPE_REMOTE_SUBMIX, AudioDeviceInfo.TYPE_BLE_HEADSET, AudioDeviceInfo.TYPE_BLE_SPEAKER, AudioDeviceInfo.TYPE_BLE_BROADCAST, AudioDeviceInfo.TYPE_DOCK_ANALOG",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "85"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioManager.MODE_NORMAL, AudioManager.MODE_RINGTONE, AudioManager.MODE_IN_CALL, AudioManager.MODE_IN_COMMUNICATION, AudioManager.MODE_CALL_SCREENING, AudioManager.MODE_CALL_REDIRECT, AudioManager.MODE_COMMUNICATION_REDIRECT",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CrossUidBench.java",
+        "line": "163"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioManager.MODE_NORMAL, AudioManager.MODE_RINGTONE, AudioManager.MODE_IN_CALL, AudioManager.MODE_IN_COMMUNICATION, AudioManager.MODE_CALL_SCREENING, AudioManager.MODE_CALL_REDIRECT, AudioManager.MODE_COMMUNICATION_REDIRECT",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/LocalAudioBench.java",
+        "line": "35"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioDeviceInfo.TYPE_BUILTIN_EARPIECE, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER, AudioDeviceInfo.TYPE_WIRED_HEADSET, AudioDeviceInfo.TYPE_WIRED_HEADPHONES, AudioDeviceInfo.TYPE_BLUETOOTH_SCO, AudioDeviceInfo.TYPE_BLUETOOTH_A2DP, AudioDeviceInfo.TYPE_HDMI, AudioDeviceInfo.TYPE_DOCK, AudioDeviceInfo.TYPE_USB_ACCESSORY, AudioDeviceInfo.TYPE_USB_DEVICE, AudioDeviceInfo.TYPE_USB_HEADSET, AudioDeviceInfo.TYPE_TELEPHONY, AudioDeviceInfo.TYPE_LINE_ANALOG, AudioDeviceInfo.TYPE_HDMI_ARC, AudioDeviceInfo.TYPE_HDMI_EARC, AudioDeviceInfo.TYPE_LINE_DIGITAL, AudioDeviceInfo.TYPE_FM, AudioDeviceInfo.TYPE_AUX_LINE, AudioDeviceInfo.TYPE_IP, AudioDeviceInfo.TYPE_BUS, AudioDeviceInfo.TYPE_HEARING_AID, AudioDeviceInfo.TYPE_BUILTIN_MIC, AudioDeviceInfo.TYPE_FM_TUNER, AudioDeviceInfo.TYPE_TV_TUNER, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER_SAFE, AudioDeviceInfo.TYPE_REMOTE_SUBMIX, AudioDeviceInfo.TYPE_BLE_HEADSET, AudioDeviceInfo.TYPE_BLE_SPEAKER, AudioDeviceInfo.TYPE_BLE_BROADCAST, AudioDeviceInfo.TYPE_DOCK_ANALOG",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/LocalAudioBench.java",
+        "line": "152"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: AudioDeviceInfo.TYPE_BUILTIN_EARPIECE, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER, AudioDeviceInfo.TYPE_WIRED_HEADSET, AudioDeviceInfo.TYPE_WIRED_HEADPHONES, AudioDeviceInfo.TYPE_BLUETOOTH_SCO, AudioDeviceInfo.TYPE_BLUETOOTH_A2DP, AudioDeviceInfo.TYPE_HDMI, AudioDeviceInfo.TYPE_DOCK, AudioDeviceInfo.TYPE_USB_ACCESSORY, AudioDeviceInfo.TYPE_USB_DEVICE, AudioDeviceInfo.TYPE_USB_HEADSET, AudioDeviceInfo.TYPE_TELEPHONY, AudioDeviceInfo.TYPE_LINE_ANALOG, AudioDeviceInfo.TYPE_HDMI_ARC, AudioDeviceInfo.TYPE_HDMI_EARC, AudioDeviceInfo.TYPE_LINE_DIGITAL, AudioDeviceInfo.TYPE_FM, AudioDeviceInfo.TYPE_AUX_LINE, AudioDeviceInfo.TYPE_IP, AudioDeviceInfo.TYPE_BUS, AudioDeviceInfo.TYPE_HEARING_AID, AudioDeviceInfo.TYPE_BUILTIN_MIC, AudioDeviceInfo.TYPE_FM_TUNER, AudioDeviceInfo.TYPE_TV_TUNER, AudioDeviceInfo.TYPE_BUILTIN_SPEAKER_SAFE, AudioDeviceInfo.TYPE_REMOTE_SUBMIX, AudioDeviceInfo.TYPE_BLE_HEADSET, AudioDeviceInfo.TYPE_BLE_SPEAKER, AudioDeviceInfo.TYPE_BLE_BROADCAST, AudioDeviceInfo.TYPE_DOCK_ANALOG",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/LocalAudioBench.java",
+        "line": "152"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: PackageManager.PERMISSION_GRANTED, PackageManager.PERMISSION_DENIED",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "111"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: PackageManager.PERMISSION_GRANTED, PackageManager.PERMISSION_DENIED",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "134"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: PackageManager.PERMISSION_GRANTED, PackageManager.PERMISSION_DENIED",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/SetupActivity.java",
+        "line": "33"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: PackageManager.PERMISSION_GRANTED, PackageManager.PERMISSION_DENIED",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "93"
+      }
+    ]
+  },
+  {
+    "id": "WrongConstant",
+    "severity": "Error",
+    "message": "Must be one of: PackageManager.PERMISSION_GRANTED, PackageManager.PERMISSION_DENIED",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ShellAudioBridge.java",
+        "line": "161"
+      }
+    ]
+  },
+  {
+    "id": "GradleDependency",
+    "severity": "Warning",
+    "message": "A newer version of `compileSdk` than 35 is available: 37",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "4"
+      }
+    ]
+  },
+  {
+    "id": "GradleDependency",
+    "severity": "Warning",
+    "message": "A newer version of com.squareup.okhttp3:okhttp than 4.12.0 is available: 5.4.0",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "14"
+      }
+    ]
+  },
+  {
+    "id": "UseRequiresApi",
+    "severity": "Warning",
+    "message": "Use `@RequiresApi(35)` instead of `@TargetApi` to propagate the requirement to callers of `pdf`",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/DossierImporter.java",
+        "line": "51"
+      }
+    ]
+  },
+  {
+    "id": "Typos",
+    "severity": "Warning",
+    "message": "\"varient\" is a common misspelling; did you mean \"variant\"?",
+    "locations": [
+      {
+        "file": "res/values/strings.xml",
+        "line": "6"
+      }
+    ]
+  },
+  {
+    "id": "ChromeOsAbiSupport",
+    "severity": "Warning",
+    "message": "Missing x86_64 ABI support for ChromeOS",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "9"
+      }
+    ]
+  },
+  {
+    "id": "PermissionImpliesUnsupportedChromeOsHardware",
+    "severity": "Error",
+    "message": "Permission exists without corresponding hardware `<uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\" />` tag",
+    "locations": [
+      {
+        "file": "AndroidManifest.xml",
+        "line": "7"
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/bcpkix-jdk15to18-1.81.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/classes.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/classes.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "ExportedContentProvider",
+    "severity": "Warning",
+    "message": "Exported content providers can provide access to potentially sensitive data",
+    "locations": [
+      {
+        "file": "AndroidManifest.xml",
+        "line": "37"
+      }
+    ]
+  },
+  {
+    "id": "DataExtractionRules",
+    "severity": "Warning",
+    "message": "The attribute `android:allowBackup` is deprecated from Android 12 and may be removed in future versions. Consider adding the attribute `android:dataExtractionRules` specifying an `@xml` resource which configures backups and device transfers on Android 12 and higher.",
+    "locations": [
+      {
+        "file": "AndroidManifest.xml",
+        "line": "16"
+      }
+    ]
+  },
+  {
+    "id": "WakelockTimeout",
+    "severity": "Warning",
+    "message": "Provide a timeout when requesting a wakelock with `PowerManager.Wakelock.acquire(long timeout)`. This will ensure the OS will cleanup any wakelocks that last longer than you intend, and will save your user's battery.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallSessionService.java",
+        "line": "57"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallBridgeService.java",
+        "line": "31"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is never < 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallBridgeService.java",
+        "line": "87"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallIdentity.java",
+        "line": "22"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallNotices.java",
+        "line": "13"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "111"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "134"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/PrivateActivity.java",
+        "line": "32"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/SetupActivity.java",
+        "line": "33"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "This folder configuration (`v27`) is unnecessary; `minSdkVersion` is 33. Merge all the resources in this folder into `values`.",
+    "locations": [
+      {
+        "file": "res/values-v27",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "UnusedResources",
+    "severity": "Warning",
+    "message": "The resource `R.string.developer_setup_guide` appears to be unused",
+    "locations": [
+      {
+        "file": "res/values/strings.xml",
+        "line": "6"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/AboutActivity.java",
+        "line": "17"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/AgentShareActivity.java",
+        "line": "71"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallMenuActivity.java",
+        "line": "11"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CallMenuActivity.java",
+        "line": "11"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/CredentialsActivity.java",
+        "line": "20"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/InstallationGuideActivity.java",
+        "line": "75"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "40"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "152"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "155"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "158"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MainActivity.java",
+        "line": "161"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MissionDossierActivity.java",
+        "line": "77"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MissionLibraryActivity.java",
+        "line": "31"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MissionLibraryActivity.java",
+        "line": "34"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MissionLibraryActivity.java",
+        "line": "46"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/MissionLibraryActivity.java",
+        "line": "49"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ModelsActivity.java",
+        "line": "35"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ModelsActivity.java",
+        "line": "41"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "55"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "89"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "92"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "123"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "137"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "151"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "171"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "183"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "198"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "202"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "218"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "229"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "258"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "262"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "268"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "272"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "300"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "304"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "313"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "322"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OutgoingCallActivity.java",
+        "line": "383"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OwnerProfileActivity.java",
+        "line": "23"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OwnerProfileActivity.java",
+        "line": "24"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/OwnerProfileActivity.java",
+        "line": "43"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "32"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "46"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "52"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "60"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "68"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/ProfilesActivity.java",
+        "line": "77"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/SettingsActivity.java",
+        "line": "15"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/SetupActivity.java",
+        "line": "22"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "java/live/pharmaradio/whatsappai/Ui.java",
+        "line": "115"
+      }
+    ]
+  }
+]

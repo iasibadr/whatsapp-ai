@@ -1,0 +1,29 @@
+name: Publish supplied APK
+on:
+  push:
+    branches: [main]
+    paths: ['downloads/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify the original artifact
+        run: |
+          python3 scripts/privacy_scan.py --apk downloads/whatsapp-ai-0.22.apk
+          cd downloads && sha256sum -c SHA256SUMS
+      - name: Publish community prerelease
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view v0.22-beta >/dev/null 2>&1; then
+            echo 'Release already exists; refusing to overwrite artifacts.'
+            exit 0
+          fi
+          gh release create v0.22-beta downloads/whatsapp-ai-0.22.apk downloads/SHA256SUMS --target "$GITHUB_SHA" --title 'whatsapp-ai 0.22-beta — community preview' --notes-file docs/RELEASE_NOTES.md --prerelease
