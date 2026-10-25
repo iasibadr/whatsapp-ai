@@ -15,6 +15,12 @@ WhatsApp AI prepares a mission, launches a user-confirmed WhatsApp call and conn
 
 This is a community research release, not an official WhatsApp, Meta or OpenAI product. No computer is required for routine use after supported local setup, but network access to the model provider is required. This is not an offline AI model.
 
+## Voice model choice
+
+**Tested provider: OpenAI API. Tested phone: the author's Pixel 8 Pro only.** The source offers OpenAI Complet and Economique models. Other providers are not integrated or tested. See the [provider options, dated cost comparison and contribution plan](docs/VOICE_PROVIDERS.md).
+
+**Fournisseur utilise pour les essais : API OpenAI.** Autres fournisseurs et autres telephones non valides.
+
 ## Status
 
 The supplied APK is version **0.22-beta**. Source and APK provenance, hashes and limitations are in [VALIDATION.md](docs/VALIDATION.md). Local relay startup was observed on Pixel 8 Pro / Android 17. A ready indicator does not prove that a remote caller hears the AI. Other phones and Android versions need their own consented call test. Automatic recovery after a full reboot is not established.
@@ -69,3 +75,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [third-pa
 **I welcome test reports across Android phone brands and models.** Compatibility is not assumed: share installation, relay startup, consented two-way call audio, manual takeover and reboot results through the [Android compatibility issue template](.github/ISSUE_TEMPLATE/android_compatibility.md).
 
 **J’attends vos retours d’essais sur les différents téléphones Android** : marque, modèle, version Android, installation et résultat d’un appel consenti. Les réussites et les échecs nous aideront à préciser la compatibilité. Ne partagez ni contacts, numéros, conversations, clés API ni codes d’association.
+
+## Project keywords
+
+`android`, `ai-calling`, `ai-voice-agent`, `voice-agents`, `voice-assistant`, `openai-realtime-api`, `adb`, `wireless-debugging`, `apk`, `java`, `realtime-audio`, `open-source`, `experimental`, `whatsapp`, `whatsapp-ai`.

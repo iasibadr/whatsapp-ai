@@ -14,3 +14,7 @@ Original signed preview APK, source build, policy checks, installation guide, pr
 6. Publish an evidence-backed compatibility matrix; unknown devices remain unknown.
 
 No dates or universal compatibility promises are attached to this roadmap. An iOS port, cloud service, unrelated automation and covert calling are outside this release.
+
+## Provider choice
+
+Only OpenAI is integrated. Extend through reviewed provider adapters, with separate credentials, interruption tests and consented device validation. See [provider comparison and acceptance criteria](VOICE_PROVIDERS.md). No additional provider is advertised as supported in the current APK.
