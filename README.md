@@ -1,5 +1,9 @@
 # WhatsApp AI
 
+> **Device testing: Pixel 8 Pro only.** All physical-phone testing so far has been on the author's Pixel 8 Pro. Other Android devices are unvalidated. This does not establish every call scenario or reboot recovery. [Help test another Android phone](https://github.com/iasibadr/whatsapp-ai/issues/3).
+>
+> **Essais sur téléphone : uniquement le Pixel 8 Pro de l’auteur.** Aucun autre modèle Android n’est validé à ce jour.
+
 [![Source checks](https://github.com/iasibadr/whatsapp-ai/actions/workflows/checks.yml/badge.svg)](https://github.com/iasibadr/whatsapp-ai/actions/workflows/checks.yml) · [Releases](https://github.com/iasibadr/whatsapp-ai/releases) · [Compatibility](docs/COMPATIBILITY.md) · [Roadmap](docs/ROADMAP.md) · [Support](SUPPORT.md)
 
 Build status covers the configured checks, not real-device audio or a security audit. Lint remains a separately reported diagnostic with known errors.
