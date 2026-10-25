@@ -51,3 +51,9 @@ Carrier calls/data, model text/history, tooling, device costs, optional backend 
 ## Francais
 
 Les essais actuels ont ete faits avec l'API OpenAI sur le Pixel 8 Pro de l'auteur. Le code propose deja Complet et Economique chez OpenAI. Les autres fournisseurs sont des pistes de contribution, pas des options disponibles dans l'APK actuel. Le classement ci-dessus compare un scenario d'audio neuf ; la facture complete et la qualite doivent etre mesurees. Claude necessite ici une chaine reconnaissance vocale + modele + synthese vocale, avec le cout de chaque composant.
+
+### Request another voice provider / Demander un autre fournisseur vocal
+
+Additional voice providers may be added in response to community requests, subject to technical feasibility, contributor availability and validation. [Open a voice-provider request](https://github.com/iasibadr/whatsapp-ai/issues/new?template=voice_provider_request.md) with the service name, public API documentation and your intended use. A request does not guarantee integration or a release date. Only OpenAI is supported today.
+
+D’autres fournisseurs vocaux pourront être ajoutés à la demande de la communauté, sous réserve de faisabilité technique, de disponibilité des contributeurs et de tests. [Ouvrir une demande](https://github.com/iasibadr/whatsapp-ai/issues/new?template=voice_provider_request.md) en indiquant le service souhaité, sa documentation API publique et votre usage. L’ajout n’est pas garanti et aucun délai n’est promis. Actuellement, seule l’API OpenAI est prise en charge. Ne partagez aucune clé API ni donnée personnelle.
